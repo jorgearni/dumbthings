@@ -4,7 +4,9 @@
 
 ## The board 
 A | B | C
+
 D | E | F 
+
 G | H | I
 
 ## Requirements:
