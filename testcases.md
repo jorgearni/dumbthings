@@ -38,9 +38,11 @@ ATTEMPT to select a box after swithching players´. VERIFY different shapes are 
 [A,B,C],[D,E,F],[G,H,I]
 
 ATTEMPT to enter any horizontal wining condition using any player. VERIFY winning player is displayed
+
 [A,D,G],[B,E,H],[C,F,I]
 
 ATTEMPT to enter any vertical winning condition using any player. VERIFY winning player is displayed   
+
 [A,E,I],[C,E,G]
 
 ATTEMPT to enter any diagonal winning condition using any player. VERIFY winner is displayed
