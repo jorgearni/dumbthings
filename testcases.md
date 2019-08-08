@@ -11,18 +11,20 @@ G | H | I
 
 ## Requirements:
 
-Winning conditions: horizontal, vertical, diagonal. When a winning condition is fulfilled a message is desplayed
-Match starts by selecting a random player to start the match.
 Only 2 players.
+Match starts by selecting a random player to start the match.
 Players take turns to fill a box.
 Each player has a shape to identify selected boxes in the board. Either X or O 
 X shape is assigned to the player that starts a match.
+Winning conditions: horizontal, vertical, diagonal. When a winning condition is fulfilled a message is desplayed
 
 
 ## Test Cases
 ### Initial conditions
-ATTEMPT to start a new game. VERIFY player 1 and player 2 are randomly selectec to start 
+ATTEMPT to start a new game. VERIFY player 1 and player 2 are randomly selectec to start.
+
 ATTEMPT to start a new game. VERIFY all boxes are empty 
+
 ATTEMPT to start a new game. VERIFY that user can select any box 
 
 ### Switching from user to user 
@@ -34,10 +36,13 @@ ATTEMPT to select a box after swithching players´. VERIFY different shapes are 
 ### Winning conditions 
 
 [A,B,C],[D,E,F],[G,H,I]
+
 ATTEMPT to enter any horizontal wining condition using any player. VERIFY winning player is displayed
 [A,D,G],[B,E,H],[C,F,I]
+
 ATTEMPT to enter any vertical winning condition using any player. VERIFY winning player is displayed   
 [A,E,I],[C,E,G]
+
 ATTEMPT to enter any diagonal winning condition using any player. VERIFY winner is displayed
 
 
